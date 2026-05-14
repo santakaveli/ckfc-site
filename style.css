@@ -6,7 +6,7 @@
 }
 
 html {
- cursor: url('https://www.rw-designer.com/cursor-extern.php?id=239779'), default;
+ cursor: url('./other_assets/TF2_knife_Normal_Select_cursor.cur'), default;
 }
 
 body {
@@ -81,7 +81,7 @@ p {
 }
 
 a {
-  cursor: url('https://www.rw-designer.com/cursor-extern.php?id=239780'), pointer;
+  cursor: url('./other_assets/TF2_Help_Select_knife_cursor.cur'), pointer;
   color: orange;
   font-weight: bold;
   text-decoration: none;
@@ -195,7 +195,7 @@ button {
 button:hover {
   background: linear-gradient(to bottom, #91493b 0%, #4f2920 100%);
   color: #fff;
-  cursor: url('http://www.rw-designer.com/cursor-extern.php?id=239784'), pointer;
+  cursor: url('./other_assets/TF2_sniper_shot_Precision_Select_cursor.cur'), pointer;
 }
 
 .buttons {
