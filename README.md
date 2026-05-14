@@ -5,3 +5,5 @@
 - [Bootstrap Icons](https://github.com/twbs/icons)
 - [lite-youtube](https://github.com/justinribeiro/lite-youtube)
 - [SweetAlert2](https://github.com/sweetalert2/sweetalert2)
+##### Made with love to [weYouthey](https://github.com/lovetaste-lovetaste)'s fan updates project.
+#
