@@ -1,0 +1,207 @@
+@import url('https://fonts.cdnfonts.com/css/tf2-build');
+
+@font-face {
+  font-family: 'Charcoal';
+  src: url('./other_assets/CHARCOAL.TTF'), format('ttf');
+}
+
+html {
+ cursor: url('https://www.rw-designer.com/cursor-extern.php?id=239779'), default;
+}
+
+body {
+  display: flex;
+  background-image: url('./other_assets/bg.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  backdrop-filter: blur(3px);
+  background-color: #000;
+  font-family: 'Charcoal', sans-serif;
+  max-width: 100%;
+  margin: 0;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  align-self: center;
+}
+
+img {
+  filter: drop-shadow(0 2px 3px #000);
+  margin: 2%;
+}
+
+h3 {
+  font-family: 'Verdana', sans-serif;
+  text-decoration: underline;
+}
+
+li {
+  font-family: 'Verdana', sans-serif;
+  list-style: circle;
+}
+
+li img {
+  margin: unset;
+  filter: none;
+}
+
+p {
+  text-align: center;
+  font-weight: 100;
+}
+
+.icon {
+  align-self: center;
+  background: url('./other_assets/ckfc_logo.png');
+  background-size: contain;
+  background-repeat: no-repeat; 
+  width: 260px;
+  height: 70px;
+  position: relative;
+  margin-top: 7.5%;
+  filter: drop-shadow(0 2px 3px #000);
+  transition: .5s;
+}
+
+.icon:hover {
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.list {
+  color: #111;
+  background: #f0f8ffc7;
+  padding: 40px;
+  width: 500px;
+  border-radius: 25px;
+  margin: 2%;
+  z-index: 999999;
+  align-self: center;
+}
+
+a {
+  cursor: url('https://www.rw-designer.com/cursor-extern.php?id=239780'), pointer;
+  color: orange;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+lite-youtube {
+  filter: drop-shadow(0 2px 3px #000);
+}
+
+.quote {
+  font-family: 'Verdana Bold', sans-serif;
+  font-size: small;
+  padding: 2%;
+  margin: 2%;
+}
+
+.scout {
+  background: url('./other_assets/scout_render.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 170px;
+  height: 170px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+@keyframes loading {
+    100% { transform: rotate(360deg) }
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: sticky;
+  height: 100vh;
+  overflow: hidden;
+  background: #0c0707;
+  transition: opacity 0.75s, visibility 0.75s, position .1s;
+  z-index: 9999999;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+}
+
+.spinner {
+  position: sticky;
+  width: 64px;
+  height: 64px;
+  background-color: rgba(145, 101, 101, 0.5);
+  transform: rotate(45deg);
+  overflow: hidden;
+}
+
+.spinner:after{
+  position: absolute;
+  content: "";
+  inset: 8px;
+  margin: auto;
+  background: #0c0707;
+}
+
+.spinner:before{
+  position: absolute;
+  content: "";
+  inset: -15px;
+  margin: auto;
+  background: orange;
+  animation: diamondLoader 2s linear infinite;
+}
+
+@keyframes diamondLoader {
+  0%  ,10% {
+    transform: translate(-64px , -64px) rotate(-45deg)
+  }
+  90% , 100% {
+    transform: translate(0px , 0px) rotate(-45deg)
+  }
+}
+
+.imagelink {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-family: 'TF2 Build', sans-serif;
+  font-size: 1.2rem;
+  -webkit-appearance: none;
+  background: #9b8d6f;
+  background: linear-gradient(to bottom, #dad0b8 0%, #9b8d6f 100%);
+  color: #2a2725;
+  text-align: left;
+  box-shadow:inset 0 2px 2px rgba(255,255,255,0.2),
+             inset 0 -2px rgba(0,0,0,0.3),
+             0 2px 2px 3px rgba(255,255,255,0.04),
+             0 0 3px rgba(0,0,0,0.5);
+             0 6px 5px -6px rgba(0,0,0,1);
+  border: none;
+  padding: 18px;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #91493b 0%, #4f2920 100%);
+  color: #fff;
+  cursor: url('http://www.rw-designer.com/cursor-extern.php?id=239784'), pointer;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Buttons design by: Johan Fagerbeg - https://codepen.io/birjolaxew | https://steamcommunity.com/id/birjolaxew */
