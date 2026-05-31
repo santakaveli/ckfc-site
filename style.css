@@ -205,4 +205,33 @@ button:hover {
   justify-content: center;
 }
 
+/* Width */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 7.5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+  background: #0c0707;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: #0c0707;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5a4324;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffa500;
+}
+
 /* Buttons design by: Johan Fagerbeg - https://codepen.io/birjolaxew | https://steamcommunity.com/id/birjolaxew */
